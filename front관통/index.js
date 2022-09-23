@@ -1,8 +1,3 @@
-// axios 사용을 위해 아래링크 넣기
-// <script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
-
-const URL = 'https://www.googleapis.com/youtube/v3/search';
-const API_KEY = "AIzaSyDt_i9xim8HDs4gLvnFrCKtb9G2Z1rLyPM";
 
 function selectVideo(partList) {
   const selectTag = document.querySelector("#select-video");
