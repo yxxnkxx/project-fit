@@ -29,7 +29,7 @@ loadReview();
 function loadReview() {
 
   const reviews = JSON.parse(localStorage.getItem(ID));
-
+  console.log(reviews)
   if (reviews !== null) {
     const tbodyTag = document.querySelector("#review-table");
     tbodyTag.innerHTML = "";
